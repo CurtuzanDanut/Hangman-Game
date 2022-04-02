@@ -1,0 +1,38 @@
+.text-center {
+	font-family: fantasy, serif;
+	color: grey;
+}
+
+.input-group {
+	height: 40px;
+}
+
+#usedLetters {
+	text-align: center;
+	color: darkred;
+	font-size: 20px;
+}
+
+#displayed-word {
+	text-align: center;
+	color: darkgreen;
+	font-size: 22px;
+}
+
+#restartBtn {
+	margin-left: 300px;
+	margin-top: 200px;
+	font-size: 20px;
+	padding: 10px 40px;
+	opacity: 0.5;
+	transition: 0.3s;
+	cursor: pointer;
+}
+#restartBtn:hover{
+	opacity: 1
+}
+
+#image {
+	width:650px;
+	height:500px;
+}
